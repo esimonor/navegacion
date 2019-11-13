@@ -2,8 +2,10 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <title>Laravel</title>
 
         <!-- Fonts -->
@@ -36,6 +38,8 @@ li a {
 
 li a:hover {
   background-color: #111;
+  text-decoration: none;
+  color:lightblue;
 }
 </style>
     </head>
@@ -47,5 +51,10 @@ li a:hover {
   <li><a href="#">Departamentos</a></li>
 </ul>
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
