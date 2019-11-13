@@ -17,6 +17,9 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 li {
@@ -39,10 +42,9 @@ li a:hover {
     <body>
 
 <ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
+  <li><a href="#">Empleados</a></li>
+  <li><a href="#">Proyectos</a></li>
+  <li><a href="#">Departamentos</a></li>
 </ul>
 
 </body>
